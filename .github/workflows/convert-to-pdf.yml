@@ -25,8 +25,9 @@ jobs:
         run: mkdir -p docs # 복사될 디렉토리 생성
 
       - name: Copy specific files
-        run: | # 루트부터 하위의 모든 md 파일들을 찾아 docs로 덮어씌기
-          find /home/runner/work/gitbook-entry-pygame_zero/gitbook-entry-pygame_zero -type f -name "*.md" -exec cp -f {} docs \;
+        run: | # 루트부터 하위의 모든 md 파일들을 찾아 docs로 덮어씌기, find /home/runner/work/gitbook-entry-pygame_zero/gitbook-entry-pygame_zero -type f -name "*.md" -exec cp -f {} docs \;
+          find $GITHUB_WORKSPACE -type f -name "*.md" -exec cp -f {} docs \;
+          find $GITHUB_WORKSPACE -type f -name "*.png" "*.gif" -exec cp -f {} docs/images \;
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
@@ -39,9 +40,9 @@ jobs:
         with:
           input_dir: docs 
           output_dir: pdfs
-          images_dir: .gitbook/assets
+          images_dir: docs/images
           # for example <img src="./images/file-name.png">
-          image_import: ../.gitbook/assets
+          image_import: .images
           # Default is true, can set to false to only get PDF files
           build_html: false
       - uses: actions/upload-artifact@v4
