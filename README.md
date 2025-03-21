@@ -1,5 +1,5 @@
 ---
-description: Entry boshlang'ich kitobidagi 7 ta misoldan foydalanib Pythonni o'rganamiz
+description: Entry boshlang'ich kitobidagi 7 ta misoldan foydalanib Python-ni o'rganamiz
 ---
 
 # Pygame Zero yordamida Python-ni o'rganish
