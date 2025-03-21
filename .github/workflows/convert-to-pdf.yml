@@ -48,6 +48,12 @@ jobs:
         with:
           name: docs
           path: pdfs
+
+      - name: merge-pdfs
+        uses: elMuso/MergePDFs-action@1.1
+        with:
+          path: pdfs
+          filename: merged
           
       - name: Download artifacts
         uses: actions/download-artifact@v3
@@ -55,10 +61,10 @@ jobs:
           name: my-artifact
           path: pdfs
 
-      - name: Copy artifacts to deploy folder
+      - name: Copy artifacts to dist folder
         run: |
           mkdir -p dist
-          cp pdfs/*.* dist/
+          cp pdfs/merged.pdf dist/
 
       - name: Commit and push changes
         run: |
