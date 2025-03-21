@@ -58,13 +58,13 @@ jobs:
       - name: Download artifacts
         uses: actions/download-artifact@v4
         with:
-          name: my-artifact
+          name: docs
           path: pdfs
 
       - name: Copy artifacts to dist folder
         run: |
           mkdir -p dist
-          cp pdfs/*.pdf dist/
+          cp pdfs/*.* dist/
 
       - name: Commit and push changes
         run: |
