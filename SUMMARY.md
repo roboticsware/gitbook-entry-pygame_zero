@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Pygame Zero yordamida Python-ni o'rganish](README.md)
+* [Pygame Zero yordamida Python o'rganish](README.md)
 * [Kirish](kirish.md)
 * [1. Pygame Zero kutubxonasi](1.-pygame-zero-lib.md)
 * [2. Dasturlash muhitini tayyorlash](2.-ide.md)
