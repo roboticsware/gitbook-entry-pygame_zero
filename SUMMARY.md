@@ -11,7 +11,7 @@
   * [5.1.2 Kuchuk va mushuk Salom aytadi2 - Ketma-ketlik](5.-start-coding/5.1.2-kuchuk-mushuk.md)
   * [5.1.3 Kuchuk va mushuk Salom aytadi3 - Ketma-ketlik](5.-start-coding/5.1.3-kuchuk-mushuk.md)
   * [5.2 Bitta gulbargdan gul yasash - Takrorlash](5.-start-coding/5.2-gul-yasash.md)
-  * [5.3 Robot changyutkich to'siqga duch kelsa nima bo'ladi? - Holat](5.-start-coding/5.3-changyutgich.md)
+  * [5.3 Robot changyutkich to'siqga duch kelsa nima bo'ladi? - Shart](5.-start-coding/5.3-changyutgich.md)
   * [5.4 O'zingizga rasm chizish taxtasini yasang - Hodisa](5.-start-coding/5.4-rasm-chizish.md)
   * [5.5 Qo'llarni cho'zgan holda sakrashlar sonini sanang - O'zgaruvchi](5.-start-coding/5.5-sakrashni-sanash.md)
   * [5.6 Xazina sandiqini ochish uchun parolni kiriting - Kiritish/Chiqarish](5.-start-coding/5.6-parol.md)
