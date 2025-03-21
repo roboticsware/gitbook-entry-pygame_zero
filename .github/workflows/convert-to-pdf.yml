@@ -37,6 +37,7 @@ jobs:
   converttopdf:
     name: Build PDF
     runs-on: ubuntu-latest
+    needs: copy_files
     steps:
       - uses: actions/checkout@v3
       - uses: baileyjm02/markdown-to-pdf@v1
