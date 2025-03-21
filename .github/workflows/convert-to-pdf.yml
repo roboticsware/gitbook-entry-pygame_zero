@@ -27,7 +27,8 @@ jobs:
       - name: Copy specific files
         run: | # 루트부터 하위의 모든 md 파일들을 찾아 docs로 덮어씌기, find /home/runner/work/gitbook-entry-pygame_zero/gitbook-entry-pygame_zero -type f -name "*.md" -exec cp -f {} docs \;
           find $GITHUB_WORKSPACE -type f -name "*.md" -exec cp -f {} docs \;
-          find $GITHUB_WORKSPACE -type f -name "*.png" "*.gif" -exec cp -f {} docs/images \;
+          find $GITHUB_WORKSPACE -type f -name "*.png" -exec cp -f {} docs/images \;
+          find $GITHUB_WORKSPACE -type f -name "*.gif" -exec cp -f {} docs/images \;
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
