@@ -7,7 +7,7 @@
 * [3. Hello World dasturidan boshlaylik.](3.-hello-world.md)
 * [4. O'yin tsiklini tushunish](4.-oyin-tsikli.md)
 * [5. Entry boshlang'ich darajali kitobini kodlash](5.-start-coding/README.md)
-  * [5.1.1 Kuchuk va mushuk Salom aytadi1 - Ketma-ketlik](5.-start-coding/5.1.1-kuchuk-mushuk.md)
+  * [5.1.1 Kuchuk va mushuk Salom aytadi1 (Ketma-ketlik)](5.-start-coding/5.1.1-kuchuk-mushuk.md)
   * [5.1.2 Kuchuk va mushuk Salom aytadi2 - Ketma-ketlik](5.-start-coding/5.1.2-kuchuk-mushuk.md)
   * [5.1.3 Kuchuk va mushuk Salom aytadi3 - Ketma-ketlik](5.-start-coding/5.1.3-kuchuk-mushuk.md)
   * [5.2 Bitta gulbargdan gul yasash - Takrorlash](5.-start-coding/5.2-gul-yasash.md)
