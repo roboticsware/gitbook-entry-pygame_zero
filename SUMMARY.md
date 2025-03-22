@@ -14,7 +14,7 @@
   * [5.3 Robot changyutkich to'siqga duch kelsa nima bo'ladi? (Shart)](5.-start-coding/5.3-changyutgich.md)
   * [5.4 O'zingizga rasm chizish taxtasini yasang (Hodisa)](5.-start-coding/5.4-rasm-chizish.md)
   * [5.5 Qo'llarni cho'zgan holda sakrashlar sonini sanang (O'zgaruvchi)](5.-start-coding/5.5-sakrashni-sanash.md)
-  * [5.6 Xazina sandiqini ochish uchun parolni kiriting - Kiritish/Chiqarish](5.-start-coding/5.6-parol.md)
+  * [5.6 Xazina sandiqini ochish uchun parolni kiriting (Kiritish/Chiqarish)](5.-start-coding/5.6-parol.md)
   * [5.7 Ko'rsichqon oyini yasash - Keng qamrovli](5.-start-coding/5.7-korsichqon-oyini.md)
 * [Ilova](ilova/README.md)
   * [O'yinni bitta bajariladigan dasturga aylantirish](ilova/exe.md)
