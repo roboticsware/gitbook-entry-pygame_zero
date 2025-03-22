@@ -70,6 +70,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add pdfs/*
+          git add pdfs/*.pdf
           git commit -m "Deploy artifacts"
           git push origin main
