@@ -1,9 +1,9 @@
-# 5.1.1 Kuchuk va mushuk Salom aytadi1 - Ketma-ketlik
+# 5.1.1 Kuchuk va mushuk Salom aytadi1 (Ketma-ketlik)
 
-Oldingi bobda biz Entry blokli kodlash va Pygame Zero-da kodlashning asosiy tuzilish farqini tushunib oldik. Shu asoslda, Entry asosiy kitobidan yettita misolni Entry-Python emas, balki haqiqiy Python kodlash orqali yaratib ko'ramiz. Ammo buni amalga oshilrish uchun faqat Pygame Zero kutubxonasi funksional jihatdan yetarli emas. Shuning uchun qo'shimcha foydalanuvchi kutubxonasi kerak bo'ladi, va biz ushbu foydalanuvchi pgzhelper kutubxonasi (user libriary, ya'ni odatda oldindan o'rnatilmagan va ehtiyojga ko'ra foydalanuvchi tomonidan yaratilgan kutubxona) chaqirishdan boshlaymiz.
+Oldingi bobda biz Entry blokli kodlash va Pygame Zeroda dasturlashning asosiy tuzilish farqini tushunib oldik. Shu asoslda, Entry asosiy kitobidan yettita misolni Entry-Python emas, balki haqiqiy Python dasturlash orqali yaratib ko'ramiz. Ammo buni amalga oshilrish uchun faqat Pygame Zero kutubxonasi funksional jihatdan yetarli emas. Shuning uchun qo'shimcha foydalanuvchi kutubxonasi kerak bo'ladi, va biz ushbu foydalanuvchi **pgzhelper kutubxonasi** (user library, ya'ni odatda oldindan o'rnatilmagan va ehtiyojga ko'ra foydalanuvchi tomonidan yaratilgan kutubxona) chaqirishdan boshlaymiz.
 
 {% hint style="info" %}
-pgzhelper birinchi bo'lib **Cort**, Singapurdagi dasturchi, Scratch blokli kodlashni PygameZero-ga o'tkazishda(porting) PygameZero cheklovlari tufayli yuzaga kelgan qiyinchiliklarni(o'xshash funksiyalarni bajarishni) yaxshilash uchun yaratgan. Shunga o'xshash sabablarga ko'ra [Roboticsware ](https://roboticsware.uz)ham PygameZero-ga Entry bloklarini kodga aylantirishni osonlashtirish uchun mavjud kutubxonaning funktsiyalarini to'ldirdi va buni ochiq kodlar GitHub sayti ( [https://github.com/roboticsware/pgzhelper ](https://github.com/roboticsware/pgzhelper)) orqali ommaga tarqatmoqda.
+pgzhelper birinchi bo'lib **Cort**, Singapurdagi dasturchi, Scratch blokli kodlashni Pygame Zeroga o'tkazishda(porting) Pygame Zero cheklovlari tufayli yuzaga kelgan qiyinchiliklarni(o'xshash funksiyalarni bajarishni) yaxshilash uchun yaratgan. Shunga o'xshash sabablarga ko'ra [Roboticsware ](https://roboticsware.uz)ham Pygame Zeroga Entry bloklarini python kodga aylantirishni osonlashtirish uchun mavjud kutubxonaning funktsiyalarini to'ldirdi va buni ochiq kodlar GitHub sayti ( [https://github.com/roboticsware/pgzhelper ](https://github.com/roboticsware/pgzhelper)) orqali ommaga tarqatmoqda.
 {% endhint %}
 
 ```python
@@ -18,11 +18,11 @@ Uni shunday chaqirishning afzalligi **avval siz kutubxona ichidagi funktsiyani c
 
 ### Entry koordinatalari tizimi va Pygame koordinatalari tizimini taqqoslash
 
-Biz yaxshi bilganimizdek, Entry-dagi koordinatalar tizimi quyidagi chapdagi rasmda ko'rsatilgan va uning xususiyati shundaki, ekranning belgilangan o‘lchami (kengligi 480 piksel, balandligi 270 piksel) bor va ekranning markazi x va y koordinatalarining boshlanish nuqtasi (0, 0) hisoblanadi. Boshqa tomondan, **Pygame koordinatalar tizimida ekranning umumiy o'lchamini foydalanuvchi o'zi belgilashi mumkin, ammo bu holda koordinatalarning boshlanish nuqtasi (0, 0) yuqori chap burchakda joylashgan bo'ladi va o'ngga va pastga qarab qiymatlar oshib boradi.**
+Biz yaxshi bilganimizdek, Entrydagi koordinatalar tizimi quyidagi chapdagi rasmda ko'rsatilgan va uning xususiyati shundaki, ekranning belgilangan o‘lchami (kengligi 480 piksel, balandligi 270 piksel) bor va ekranning markazi x va y koordinatalarining boshlanish nuqtasi (0, 0) hisoblanadi. Boshqa tomondan, **Pygame koordinatalar tizimida ekranning umumiy o'lchamini foydalanuvchi o'zi belgilashi mumkin, ammo bu holda koordinatalarning boshlanish nuqtasi (0, 0) yuqori chap burchakda joylashgan bo'ladi va o'ngga va pastga qarab qiymatlar oshib boradi.**
 
 <table><thead><tr><th align="center">Entry</th><th align="center">Pygame</th><th data-hidden></th></tr></thead><tbody><tr><td align="center"><img src="../.gitbook/assets/image (33).png" alt="" data-size="original"></td><td align="center"><img src="../.gitbook/assets/image (32).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
 
-Keling, hozircha Entry ning bajarish ekrani hajmini taqlid qilaylik. Shuning uchun ekranning kengligi va balandligi mos ravishda 480 va 270 pikselni tashkil qiladi va shunga asoslanib, kod quyidagicha bo'ladi:
+Keling, hozircha Entryning bajarish ekrani hajmini taqlid qilaylik. Shuning uchun ekranning kengligi va balandligi mos ravishda 480 va 270 pikselni tashkil qiladi va shunga asoslanib, kod quyidagicha bo'ladi:
 
 {% code lineNumbers="true" %}
 ```python
@@ -34,7 +34,7 @@ HEIGHT = 270
 ```
 {% endcode %}
 
-O‘yinda alohida fon rasmi mavjud emas. Entry'da fon rangi avtomatik ravishda oq rangda bo‘ladi, ammo Pygame Zero-da bu avtomatik ravishda bo‘lib o‘tmaydi. Shuning uchun, bizning ehtiyojimizga ko‘ra fonni oq rangda bo‘yash kerak bo‘ladi. Buni kodlashning uchta usuli mavjud:
+O‘yinda alohida fon rasmi mavjud emas. Entryda fon rangi avtomatik ravishda oq rangda bo‘ladi, ammo Pygame Zeroda bu avtomatik ravishda bo‘lib o‘tmaydi. Shuning uchun, bizning ehtiyojimizga ko‘ra fonni oq rangda bo‘yash kerak bo‘ladi. Buni kodlashning uchta usuli mavjud:
 
 #### Oldindan belgilangan rang qiymati kalit so'zlari yordamida kodlash
 
@@ -43,15 +43,13 @@ def draw():
     screen.fill('white')
 ```
 
-_**draw** funksiyasi oldingi bobda ko'rganimizdek, Pygame Zero o'yin tsiklida mavjud bo'lgan oldindan belgilangan qayta chaqirish qilish funksiyasi._ Ekranda biror narsa chizmoqchi bo'lganimizda, u avtomatik ravishda chaqiriladi. Ekranni rangga to'dirish uchun kod ushbu funktsiya ichida yozilishi kerak va ekranni to'ldirish uchun biz oq rangni argument sifatida o'tkazib, **fill** deb nomlangan funktsiyadan foydalanamiz. **fill** funksiyasi **screen** yordamida chaqiriladi, chunki **fill** funksiyasi Pygame Zero kutubxonasining **screen** ob'ektida mavjud.
+_**draw** funksiyasi oldingi bobda ko'rganimizdek, Pygame Zero o'yin siklida mavjud bo'lgan oldindan belgilangan kolbek funksiyasi._ Ekranda biror narsa chizmoqchi bo'lganimizda, u avtomatik ravishda chaqiriladi. Ekranni rangga to'dirish uchun kod ushbu funktsiya ichida yozilishi kerak va ekranni to'ldirish uchun biz oq rangni [argument](https://roboticsware.gitbook.io/entry-python/boshlash/hello_world#funksiyani-qanday-yaratish-tariflash) sifatida o'tkazib, **fill** deb nomlangan funktsiyadan foydalanamiz. **fill** funksiyasi "**screen.**" yordamida chaqiriladi, chunki **fill** funksiyasi Pygame Zero kutubxonasining **screen** obyektida mavjud. Obyektlar haqida keyingi bobda batafsil yoritilganligi sababli, hozircha yetarli.
 
-Bu qism Entry-Python kitobida qoplangan edi, shuning uchun sizdan buni yaxshi tushunish kutilmoqda.
-
-**Ekranni to'ldirish uchun rang qiymatini o'tkazishning uchta usuli mavjud. Ulardan biri til o'rnatilgan kalit so'zlar kabi oldindan belgilangan qiymatlardan foydalanish, ikkinchisi esa RGB vakolatxonasidan foydalanishdir.** Oldindan belgilangan rang kalit so'zlarini quyidagi rang qiymatlari jadvalida topish mumkin.
+**Ekranni to'ldirish uchun rang qiymatini o'tkazishning uchta usuli mavjud. Ulardan biri til o'rnatilgan kalit so'zlar kabi oldindan belgilangan qiymatlardan foydalanish, ikkinchisi esa RGB (Red / Green / Blue) vakolatxonasidan foydalanishdir.** Oldindan belgilangan rang kalit so'zlarini quyidagi rang qiymatlari jadvalida topish mumkin.
 
 <figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
-Keyin rangni RGB ning uchta asosiy rangi (qizil, yashil, ko'k) kombinatsiyasi orqali ifodalash mumkin, bu yerda har bir asosiy rang maksimal qiymati 256 gacha bo'lishi mumkin. Istalgan rangni ifodalash uchun har bir asosiy rangni o'nlik (0 dan 255 gacha) yoki o'n oltili (00 dan FF gacha) sanoq sistemasida ifodalash usullari mavjud.
+Keyin rangni RGBning uchta asosiy rangi (qizil, yashil, ko'k) kombinatsiyasi orqali ifodalash mumkin, bu yerda har bir asosiy rang maksimal qiymati 256 tadir. Istalgan rangni ifodalash uchun har bir asosiy rangni o'nlik (0 dan 255 gacha) yoki o'n oltili (00 dan FF gacha) sanoq sistemasida ifodalash usullari mavjud.
 
 <table><thead><tr><th width="356"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (28).png" alt="" data-size="original"></td><td><img src="../.gitbook/assets/image (27).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
 
@@ -69,7 +67,7 @@ def draw():
     screen.fill('#FFFFFF')
 ```
 
-Ranglarning ifodasiga kelsak, internetda juda ko'p manbalar mavjud, shuning uchun har bir kishi ushbu materiallar bilan to'g'ridan-to'g'ri tanishib chiqishi yaxshiroqdir. Ma'lumot uchun, nega ranglarni ifodalash uchun RGB ning uchta asosiy ranglari ishlatilishi [haqidagi blog](https://phominator.tistory.com/42)ni tekshiring.
+Ranglarning ifodasiga kelsak, internetda juda ko'p manbalar mavjud, shuning uchun har bir kishi ushbu materiallar bilan to'g'ridan-to'g'ri tanishib chiqishi yaxshiroqdir. Ma'lumot uchun, nega ranglarni ifodalash uchun RGBning uchta asosiy ranglari ishlatilishi [haqidagi blog](https://phominator.tistory.com/42)ni tekshiring.
 
 Keling, shu vaqtgacha yozilgan kodni ishga tushirib, u kutilganidek ishlashini tekshirib ko‘raylik. Ishga tushirish uchun avvalo dastur kodini faylga saqlash kerak. Dastur kodi (source code) saqlanishi lozim bo‘lgan asosiy joy — bu _**\[foydalanuvchi nomi]\mu\_code**_**\\.** (quyidagi rasmga qarang).
 
