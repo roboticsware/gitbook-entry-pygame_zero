@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Pygame Zero yordamida Python o'rganish](README.md)
+* ["Pygame Zero" yordamida Python o'rganish](README.md)
 * [Kirish](kirish.md)
-* [1. Pygame Zero kutubxonasi](1.-pygame-zero-lib.md)
+* [1. "Pygame Zero" kutubxonasi](1.-pygame-zero-lib.md)
 * [2. Dasturlash muhitini tayyorlash](2.-ide.md)
 * [3. Hello World dasturidan boshlaylik.](3.-hello-world.md)
 * [4. O'yin tsiklini tushunish](4.-oyin-tsikli.md)
