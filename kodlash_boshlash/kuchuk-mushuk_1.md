@@ -67,17 +67,17 @@ def draw():
     screen.fill('#FFFFFF')
 ```
 
-Ranglarning ifodasiga kelsak, internetda juda ko'p manbalar mavjud, shuning uchun har bir kishi ushbu materiallar bilan to'g'ridan-to'g'ri tanishib chiqishi yaxshiroqdir. Ma'lumot uchun, nega ranglarni ifodalash uchun RGBning uchta asosiy ranglari ishlatilishi [haqidagi blog](https://phominator.tistory.com/42)ni tekshiring.
+Ranglarning ifodasiga kelsak, internetda juda ko'p manbalar mavjud, shuning uchun har bir kishi ushbu materiallar bilan to'g'ridan-to'g'ri tanishib chiqishi yaxshiroqdir. Ma'lumot uchun, nega ranglarni ifodalash uchun RGBning uchta asosiy ranglari ishlatilishi haqida mana bu [havola](https://en.wikipedia.org/wiki/RGB_color_model)dan tekshiring.
 
-Keling, shu vaqtgacha yozilgan kodni ishga tushirib, u kutilganidek ishlashini tekshirib ko‘raylik. Ishga tushirish uchun avvalo dastur kodini faylga saqlash kerak. Dastur kodi (source code) saqlanishi lozim bo‘lgan asosiy joy — bu _**\[foydalanuvchi nomi]\mu\_code**_**\\.** (quyidagi rasmga qarang).
+Keling, shu vaqtgacha yozilgan kodni ishga tushirib, u kutilganidek ishlashini tekshirib ko‘raylik. Ishga tushirish uchun avvalo dastur kodini faylga saqlash kerak. Dastur kodlari (manba kodlar) saqlanishi lozim bo‘lgan asosiy joy — bu _**\[foydalanuvchi nomi]\mu\_code**_**\\** (quyidagi rasmga qarang).
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-_**Yozilgan dastur kodini saqlaganda, saqlash joyi, albatta, qat’iy belgilanmagan bo‘lib, foydalanuvchi uni istagan joyiga saqlashi mumkin. Biroq, ushbu kitobdagi misol amaliyotlarini bajarishda kerak bo‘ladigan resurslar (rasmlar, shriftlar, effekt ovozlari, fon musiqasi)dan foydalanish uchun fayllarni yuqorida aytib o'tilgan Mu Editor-ning asosiy kod saqlash joyi (\[foydalanuvchi nomi]\mu\_code)ga saqlashingizni so‘raymiz.**_ Nega bunday qilish kerakligi haqida keyingi bo‘limlarda batafsil tushuntiriladi.
+_**Yozilgan dastur kodini saqlaganda, saqlash joyi, albatta, qat’iy belgilanmagan bo‘lib, foydalanuvchi uni istagan joyiga saqlashi mumkin. Biroq, ushbu kitobdagi misol amaliyotlarini bajarishda kerak bo‘ladigan resurslar (rasmlar, fontlar, effekt ovozlari, fon musiqasi)dan foydalanish uchun fayllarni yuqorida aytib o'tilgan Mu editorining asosiy kod saqlash joyi (\[foydalanuvchi nomi]\mu\_code\\)ga saqlashingizni so‘raymiz.**_ Nega bunday qilish kerakligi haqida keyingi qismlarda batafsil tushuntiriladi.
 {% endhint %}
 
-Dastur kodini saqlab bo‘lganingizdan so‘ng, endi F5 tugmasini bosib, uni ishga tushiring. Ekran oq rang bilan to‘g‘ri bo‘yalgan bo‘ladi. Ekran rangini yuqorida o‘rgangan uchta usulni qo‘llab o‘zgartirib ko‘rish sizga amaliyot uchun topshiriq sifatida qoldiriladi.
+Dastur kodini saqlab bo‘lganingizdan so‘ng, endi F5 tugmasi (Ishga tushirishning tezkor tugumasi)ni bosib, uni ishga tushiring. Ekran oq rang bilan to‘g‘ri bo‘yalgan bo‘ladi. Ekran rangini yuqorida o‘rgangan uchta usulni qo‘llab o‘zgartirib ko‘rish sizga amaliyot uchun topshiriq sifatida qoldiriladi.
 
 {% code lineNumbers="true" %}
 ```python
@@ -94,18 +94,18 @@ def draw():
 
 Endi keyingi qadam — o‘yin qahramonlari bo‘lgan «Kuchukcha» va «Mushukcha» obyektlarini chaqirib, ularni ekranga joylashtirishdir. Buni kodlash uchun har bir obyektning tashqi ko‘rinishini ifodalovchi rasm fayllari kerak bo‘ladi.
 
-Entry blokli kodlashdagi tajribangizni eslang. O‘yinni yaratishda birinchi qilgan ishingiz nima edi? Ehtimol, siz o‘yinda ishtirok etadigan obyektlarni ekranga joylashtirish bilan boshlagansiz. Matnli kodlashda ham shunga o‘xshash. Biz ham qahramon obyektlarini ekranga chiqarishdan boshlaymiz.
+Entry blokli kodlashdagi tajribangizni eslang. O‘yinni yaratishda birinchi qilgan ishingiz nima edi? Ehtimol, siz o‘yinda ishtirok etadigan obyektlarni ekranga joylashtirish bilan boshlagansiz. Matnli dasturlashda ham shunga o‘xshash. Biz ham qahramon obyektlarini ekranga chiqarishdan boshlaymiz.
 
-Biroq, Entry-da bo‘lgani kabi, agar o‘yinda foydalaniladigan obyektlar dasturga oldindan kiritilmagan bo‘lsa, o‘yin uchun kerak bo‘lgan rasm fayllarini kiritib, keyin kodlashni boshlashingiz kerak edi. Xuddi shunday, agar kodlashda foydalaniladigan rasmlar oldindan kiritilgan rasmlar bo‘lmasa, ularni alohida saqlash kerak bo‘ladi. Saqlash yo‘li — bu Mu Editori o‘rnatilganda avtomatik ravishda yaratiladigan _**\[foydalanuvchi nomi]\mu\_code\images**_ papkasi (direktoriyasi) va rasmlar shu papkada joylashishi kerak bo‘ladi.
+Biroq, Entryda bo‘lgani kabi, agar o‘yinda foydalaniladigan obyektlar dasturga oldindan kiritilmagan bo‘lsa, o‘yin uchun kerak bo‘lgan rasm fayllarini kiritib, keyin kodlashni boshlashingiz kerak edi. Xuddi shunday, agar kodlashda foydalaniladigan rasmlar oldindan kiritilgan rasmlar bo‘lmasa, ularni alohida saqlash kerak bo‘ladi. Saqlash yo‘li — bu Mu editori o‘rnatilganda avtomatik ravishda yaratiladigan _**\[foydalanuvchi nomi]\mu\_code\images**_ papkasi(direktoriyasi) va rasmlar shu papkada joylashishi kerak bo‘ladi.
 
-Ushbu papkaning joylashuvini osongina topmoqchi bo‘lsangiz, Mu muharriridagi menyu panelidagi **"Rasmlar" tugmasi**ni bosing. Bu tugma siz foydalanayotgan rasmlar saqlangan papkani darhol ochib beradi. Papka ichida ushbu kitobda foydalaniladigan rasmlar sizning qulayligingiz uchun oldindan saqlanganini ko‘rishingiz mumkin. Manba kodini asosiy saqlash joyiga saqlashingizni so‘raganimizning sababi, biz ushbu oldindan saqlangan rasmlardan foydalanib, qo‘shimcha resurslar bilan bog‘liq ishlarni chetlab o‘tib, faqat kodlashga e'tibor qaratishingiz uchun edi.
+Ushbu papkaning joylashuvini osongina topmoqchi bo‘lsangiz, Mu editoridagi menyu panelidagi **"Rasmlar" tugmasi**ni bosing. Bu tugma siz foydalanayotgan rasmlar saqlangan papkani darhol ochib beradi. Papka ichida ushbu kitobda foydalaniladigan rasmlar sizning qulayligingiz uchun oldindan saqlanganini ko‘rishingiz mumkin. Manba kodini asosiy saqlash joyiga saqlashingizni so‘raganimizning sababi, biz ushbu oldindan saqlangan rasmlardan foydalanib, qo‘shimcha resurslar bilan bog‘liq ishlarni chetlab o‘tib, faqat kodlashga e'tibor qaratishingiz uchun edi.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-10-21 at 16.28.41.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/imageaa.avif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Aytgancha, **o'yinni dasturlashda zarur bo'lgan resurslarni (rasmlar, shriftlar, ovoz effektlari, fon musiqasi) saqlaydigan papkalarni yaratish uchun siz Pygame Zero kutubxonasining asosiy cheklovlarida o'rnatilgan ushbu pastki papkalar uchun oldindan belgilangan nomlarga (tartibda: rasmlar, shriftlar, tovushlar, musiqa) rioya qilishingiz kerak**. Ushbu muvofiqlik Mu editordagi menyu tugmalarining nomlari aytib o'tilgan papkalarning nomlariga mos kelishi bilan bog'liq. Shuning uchun, tegishli tugmalarni bosish orqali resurs turiga mos papkalarni avtomatik ravishda ochishga qaratilgan dasturlash, resurslarni topa olmaslik bilan bog'liq ish vaqtida xatolar ehtimolini kamaytiradigan qulay usuldir.
+Aytgancha, **o'yinni dasturlashda zarur bo'lgan resurslarni (rasmlar, fontlar, ovoz effektlari, fon musiqasi) saqlaydigan papkalarni yaratish uchun siz Pygame Zero kutubxonasining asosiy cheklovlarida o'rnatilgan ushbu pastki papkalar uchun oldindan belgilangan nomlarga (tartibda: images(rasmlar), fonts(fontlar), sounds(effektlar), music(ovozlar)) rioya qilishingiz kerak**. Ushbu muvofiqlik Mu editorining menyu panelidagi tugmalarining nomlari aytib o'tilgan papkalarning nomlariga mos kelishi bilan bog'liq. Shuning uchun, tegishli tugmalarni bosish orqali resurs turiga mos papkalarni avtomatik ravishda ochishga qaratilgan dasturlash, resurslarni topa olmaslik bilan bog'liq ish vaqtida xatolar ehtimolini kamaytiradigan qulay usuldir.
 
 \
 Shunga tegishli Mu editorning qo'llanmasiga qarang:
@@ -113,16 +113,16 @@ Shunga tegishli Mu editorning qo'llanmasiga qarang:
 [https://codewith.mu/en/howto/1.2/pgzero\_sounds\_images](https://codewith.mu/en/howto/1.2/pgzero_sounds_images)
 {% endhint %}
 
-Keyingi keltiriladigan ma’lumotlar siz bilishingiz kerak bo'lgani uchun berilgan. Biz foydalanayotgan maxsus Mu Editori holatida, kodlashda kerak bo‘ladigan barcha resurslar (rasmlar, ovozlar va hokazo) sizning qulayligingiz uchun oldindan kiritib qo‘yilgan, shuning uchun bunday qo‘shimcha ishlar talab qilinmaydi. Biroq, bu izoh Entry-da har bir obyektning rasmlarini qanday olib kirish mumkinligi bilan qiziqadiganlar uchun qo‘shimcha tushuntirishdir.
+Keyingi keltiriladigan ma’lumotlar siz bilishingiz kerak bo'lgani uchun berilgan. Biz foydalanayotgan maxsus Mu Editori holatida, kodlashda kerak bo‘ladigan barcha resurslar (rasmlar, ovozlar va hokazo) sizning qulayligingiz uchun oldindan kiritib qo‘yilgan, shuning uchun bunday qo‘shimcha ishlar talab qilinmaydi. Biroq, bu qism Entryda har bir obyektning rasmlarini qanday olib kirish mumkinligi bilan qiziqadiganlar uchun qo‘shimcha tushuntirishdir.
 
-#### Entry dan rasm obyektini import qilish
+#### Entrydan rasm obyektining rasmini olib kirish
 
-Entry dagi "kuchuk" va "mushuk" obyektlarining rasmlaridan foydalanish uchun Entry-ni oching va kerakli obyektlarning rasm fayllarini import qiling. Import qilish uchun "shakl" yorlig'ini bosing, import qilmoqchi bo'lgan shaklni o'ng sichqon tugmasi bilan bosing va paydo bo'lgan menyudan "kompyuterga yuklab olish" ni tanlang. Uni Pygame Zero uchun yuqorida aytib o'tilgan "images" papkasiga saqlang.
+Entrydagi "kuchuk" va "mushuk" obyektlarining rasmlaridan foydalanish uchun Entryni oching va kerakli obyektlarning rasmlarni fayl sifatida saqlab olsangiz bo'ladi. Rasmni olish uchun "shakl" yorlig'ini bosing, olmoqchi bo'lgan shaklni sichqonchaning o'ng tugmasi bilan bosing va paydo bo'lgan menyudan "kompyuterga yuklab olish"ni tanlang. Uni Pygame Zero uchun yuqorida aytib o'tilgan "images" papkasiga saqlang.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-03-20 at 12.14.25 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Ushbu kitobdagi misollar uchun zarur bo'lgan barcha rasmlarni [bu yer](https://github.com/roboticsware/python-pygame_zero-samples/tree/main/entry_basic/images_ko)dan yuklab olishingiz mumkin.
+Ushbu kitobdagi misollar uchun zarur bo'lgan barcha rasmlarni [bu yer](https://github.com/roboticsware/python-pygame_zero-samples/tree/main/entry_basic/images_ko)dan yuklab olishingiz ham mumkin.
 {% endhint %}
 
 Endi har bir obyektni («Kuchukcha» va «Mushukcha») ekranda aks ettirishga o‘tamiz va keyingi bo‘limda ularning o‘zaro salomlashishini kodlashni yakunlaymiz.

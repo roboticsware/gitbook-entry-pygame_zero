@@ -2,7 +2,7 @@
 
 Bu dasturlashdagi birinchi qadam. Har doimgidek, lekin bu safar siz bilan, biz "[Hello World](https://uz.wikipedia.org/wiki/Hello,_World!)" dasturini birgalikda o'rganishdan boshlashimiz kerak. Biroq, Pygame Zero dasturlash tilining o'zi emas, balki kutubxona bo'lgani uchun biz tanish bo'lgan Hello World dasturini yaratmaymiz. Buning o'rniga, avvalgi Hello World dasturiga nisbatan Pygame Zero kutubxonasi bilan kodlashda zarur bo'lgan minimal koddan iborat eng kichik dastur misolini ko'rib chiqamiz.
 
-Birinchidan, Mu Editorni ochaylik. Faylni ochish va birinchi kodlashni boshlash uchun menyu satridagi **Yangi fayl** tugmasini bosing. Quyidagi bitta chiziqli kodni yozamiz.
+Birinchidan, Mu Editorni ochaylik. Faylni ochish va birinchi kodlashni boshlash uchun menyu panelidagi **Yangi fayl** tugmasini bosing. Quyidagi bitta chiziqli kodni yozamiz.
 
 ```python
 TITLE = 'Hello World!' 
@@ -12,13 +12,13 @@ Kodlash amalga oshirildi. Ajoyib! Bu juda oddiy emasmi? Ha, shunday. Shuning uch
 
 Faqat bitta qator kod bilan biz 'Hello World' nomli juda oddiy bo'sh oyna dasturini yaratdik.
 
-Endi kodni **hello\_world** nomi bilan faylga saqlash uchun menyu satridagi **Saqlash** tugmasini bosamiz. Keyin, uni bajarish uchun menyu satridagi **Boshlash** tugmasini bosing va qanday ishlashini tekshiring. **hello\_world** nomli bo'sh oyna ilovasi biz kutgandek to'g'ri ishladimi?
+Endi kodni **hello\_world** nomi bilan faylga saqlash uchun menyu panelidagi **Saqlash** tugmasini bosamiz. Keyin, uni bajarish uchun menyu panelidagi **Boshlash** tugmasini bosing va qanday ishlashini tekshiring. **hello\_world** nomli bo'sh oyna ilovasi biz kutgandek to'g'ri ishladimi?
 
 <figure><img src=".gitbook/assets/Screenshot 2024-03-11 at 11.51.32.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>"Hello World" nomli ijro ekrani</p></figcaption></figure>
 
-Kodlashga qaytish uchun biz hozirgina bajarilgan dasturni yopishimiz kerak. Ishga tushrilgan dastur o'zi oynasidagi 'x' tugmasini (dastur o'chirish tugmasi) bosish orqali o'yin ilovasini yopish mumkin bo'lsa-da, **Mu editorida kodlashni davom etish uchun har doim to'g'ri chiqish uchun Menyu satridagi To'xtatish tugmasini bosishni unutmang**.
+Kodlashga qaytish uchun biz hozirgina bajarilgan dasturni yopishimiz kerak. Ishga tushrilgan dastur o'zi oynasidagi 'x' tugmasini (dastur o'chirish tugmasi) bosish orqali o'yin ilovasini yopish mumkin bo'lsa-da, **Mu editorida kodlashni davom etish uchun har doim to'g'ri chiqish uchun Menyu panelidagi To'xtatish tugmasini bosishni unutmang**.
 
 <figure><img src=".gitbook/assets/Screenshot 2024-03-11 at 12.06.22.png" alt=""><figcaption></figcaption></figure>
 
