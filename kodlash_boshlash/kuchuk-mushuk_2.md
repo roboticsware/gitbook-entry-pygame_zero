@@ -1,12 +1,12 @@
-# 5.1.2 Kuchuk va mushuk Salom aytadi2 - Ketma-ketlik
+# 5.1.2 Kuchuk va mushuk Salom aytadi2 (Ketma-ketlik)
 
-Oxirgi bo'limgacha biz o'yin sahnasini (orqa fon) tayyorlashni yakunladik. Endi biz sahnada aktyor sifatida ishlaydigan ikkita ob'ektni, kuchuk va mushukni yaratishdan boshlashimiz kerak. Entryda biz ob'ektlarni o'zimiz yaratishimiz shart emas edi, chunki Entry ularni biz bilmasdan biz uchun yaratdi.
+Oxirgi bo'limgacha biz o'yin sahnasini (orqa fon) tayyorlashni yakunladik. Endi biz sahnada aktyor sifatida ishlaydigan ikkita obyektni, kuchuk va mushukni yaratishdan boshlashimiz kerak. Entryda biz obyektlarni o'zimiz yaratishimiz shart emas edi, chunki Entry ularni biz bilmasdan biz uchun yaratdi.
 
-Bunday aktyor obyektlarini yaratish uchun Pygame Zero Actor nomli **sinf (class)** tayyorlagan. Sinf atamasi birinchi marta paydo bo'ldi, lekin sodda qilib aytganda, keling, uni obyektlarni aniqlash uchun ishlatiladigan grammatika deb hisoblaylik. Bu biz funktsiyalarni aniqlash uchun ishlatgan [def grammatikasi](https://jjlee.gitbook.io/entry-python/basic_syntax/3.1-hello-world#undefined-5)ga o'xshaydi.
+Bunday aktyor obyektlarini yaratish uchun Pygame Zero Actor nomli **klass(class)** tayyorlagan. Klass atamasi birinchi marta paydo bo'ldi, lekin sodda qilib aytganda, keling, uni obyektlarni e'lon qilish uchun ishlatiladigan grammatika deb hisoblaylik. Bu biz funktsiyalarni e'lon qilish uchun ishlatgan [def grammatikasi](https://roboticsware.gitbook.io/entry-python/boshlash/hello_world#funksiyani-qanday-yaratish-tariflash)ga o'xshaydi.
 
 **Funktsiyani aniqlash va undan foydalanish turli tushunchalar** ekanligini allaqachon tushunib yetdik. Funktsiyani aniqlash funksiya yaratish degani, boshqacha qilib aytganda, funksiya chaqirilganda va foydalanilganda nima qilishini bildiruvchi ish tavsifi bilan funksiya yaratishni anglatadi. Shundan so'ng, ushbu aniqlangan (yaratilgan) funktsiyadan foydalanish uchun funktsiya o'zining nomi bilan (va ba'zan funksiya talab qiladigan argumentlar bilan) chaqiriladi va funktsiya chaqirilgan paytda u kompyuterning xotirasiga yuklanadi va funksiyada ko'rsatilgan ishni haqiqatda bajaradigan kichik, mujassamlangan dastur sifatida ishlaydi.
 
-#### Sinf va obyekt orasidagi farq.
+#### Klass va obyekt orasidagi farq
 
 Sinflar va obyektlar o'rtasidagi munosabatlar bir xil. **Obyektni aniqlashda sinfdan foydalaniladi va haqiqiy foydalanish uchun chaqirilgan va xotirada materiallashtirilgan holat obyekt deb ataladi (aniqrog'i, bu "holat" deb ataladi).** Boshqacha qilib aytganda, siz obyektni sinf nomi bilan chaqirish orqali yaratishingiz mumkin (xuddi funktsiya nomi bilan funktsiyani chaqirish kabi). Haqiqiy kodni ko'rib chiqish orqali buni batafsil tushunamiz.
 
