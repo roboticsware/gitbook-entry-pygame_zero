@@ -53,14 +53,14 @@ Keyin rangni RGBning uchta asosiy rangi (qizil, yashil, ko'k) kombinatsiyasi orq
 
 <table><thead><tr><th width="356"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (28).png" alt="" data-size="original"></td><td><img src="../.gitbook/assets/image (27).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
 
-#### RGB rang qiymatlarining o'nlik ko'rinishida oq rangni kodlash
+### RGB rang qiymatlarining o'nlik ko'rinishida oq rangni kodlash
 
 ```python
 def draw():
     screen.fill((255, 255, 255))
 ```
 
-#### RGB rang qiymatlarining o'nlik oltilik ko'rinishida oq rangni kodlash
+### RGB rang qiymatlarining o'nlik oltilik ko'rinishida oq rangni kodlash
 
 ```python
 def draw():
@@ -115,7 +115,7 @@ Shunga tegishli Mu editorning qo'llanmasiga qarang:
 
 Keyingi keltiriladigan ma’lumotlar siz bilishingiz kerak bo'lgani uchun berilgan. Biz foydalanayotgan maxsus Mu Editori holatida, kodlashda kerak bo‘ladigan barcha resurslar (rasmlar, ovozlar va hokazo) sizning qulayligingiz uchun oldindan kiritib qo‘yilgan, shuning uchun bunday qo‘shimcha ishlar talab qilinmaydi. Biroq, bu qism Entryda har bir obyektning rasmlarini qanday olib kirish mumkinligi bilan qiziqadiganlar uchun qo‘shimcha tushuntirishdir.
 
-#### Entrydan rasm obyektining rasmini olib kirish
+### Entrydan rasm obyektining rasmini olib kirish
 
 Entrydagi "kuchuk" va "mushuk" obyektlarining rasmlaridan foydalanish uchun Entryni oching va kerakli obyektlarning rasmlarni fayl sifatida saqlab olsangiz bo'ladi. Rasmni olish uchun "shakl" yorlig'ini bosing, olmoqchi bo'lgan shaklni sichqonchaning o'ng tugmasi bilan bosing va paydo bo'lgan menyudan "kompyuterga yuklab olish"ni tanlang. Uni Pygame Zero uchun yuqorida aytib o'tilgan "images" papkasiga saqlang.
 
