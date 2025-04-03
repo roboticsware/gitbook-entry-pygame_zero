@@ -1,8 +1,8 @@
-# 5.2 Bitta gulbargdan gul yasash - Takrorlash
+# 5.2 Bitta gulbargdan gul yasash (Takrorlash)
 
 
 
-Ushbu bob "takrorlash"ni o'rganish uchun Entry asoslari kitobining ikkinchi misolidir. Oldingi bobda biz allaqachon Pygame Zero tomonidan taqdim etilgan obyektlardan foydalangan holda kodlashning asosiy va muhim mazmunini ko'rib chiqdik, shuning uchun qolgan misollarning kodlanishini tushunish bundan buyon unchalik qiyin bo'lmasligini kutishimiz mumkin. Shuning uchun biz faqat oldingi boblarda o'rganilmagan yangi kiritilgan kodlarga e'tibor qaratamiz, mavjud tarkibni takrorlamasdan.
+Ushbu bob "**takrorlash**"ni o'rganish uchun Entry boshlang'ich kitobining ikkinchi misolidir. Oldingi bobda biz allaqachon Pygame Zero tomonidan taqdim etilgan obyektlardan foydalangan holda kodlashning asosiy va muhim mazmunini ko'rib chiqdik, shuning uchun qolgan misollarning kodlanishini tushunish bundan buyon unchalik qiyin bo'lmasligini kutishimiz mumkin. Shuning uchun biz faqat oldingi boblarda o'rganilmagan yangi kiritilgan kodlarga e'tibor qaratamiz, mavjud tarkibni takrorlamasdan.
 
 {% code lineNumbers="true" %}
 ```python
@@ -21,11 +21,11 @@ def draw():
 ```
 {% endcode %}
 
-Yangi paydo bo‘lgan kod 6-qatorida birinchi marta uchraydi va avval Actor obyektini yaratish hamda ishlatishda uchramagan **anchor** nomli xususiyat paydo bo‘ladi. Anchor so‘zining lug‘at ma’nosi kemani harakatsiz turishi uchun joyiga mahkamlovchi 'langar'ni anglatadi va shu ma’no orqali uning maqsadini taxmin qilish mumkin. To‘g‘ri javobni aytadigan bo‘lsak, **bu har bir obyektning markaziy nuqtasi bo‘lib, biz buni Entry blokli kodlashda ham ishlatgan edik, PyGame Zero-da esa bu anchor deb ataladi.**
+Yangi paydo bo‘lgan kod 6-qatorida birinchi marta uchraydi va avval Actor obyektini yaratish hamda ishlatishda uchramagan **anchor** nomli xususiyat paydo bo‘ladi. Anchor so‘zining lug‘at ma’nosi kemani harakatsiz turishi uchun joyiga mahkamlovchi 'langar'ni anglatadi va shu ma’no orqali uning maqsadini taxmin qilish mumkin. To‘g‘ri javobni aytadigan bo‘lsak, **bu har bir obyektning markaziy nuqtasi bo‘lib, biz buni Entry blokli kodlashda ham ishlatgan edik, Pygame Zeroda esa bu anchor deb ataladi.**
 
-Entry dasturida ham shunday edi: **odatda Actor obyektining standart anchor qiymati rasmdagi markaziy nuqta (center) bo‘ladi.** Ammo zaruratga ko‘ra, obyektning markaziy nuqtasini ekranda ko‘rsatilganidek obyektning pastki o‘rta qismiga (middle-bottom yoki bottom-middle) ko‘chirish mumkin. Bunday holatda, Actor obyektining anchor xususiyatiga **anchor=('middle', 'bottom')** qiymatini o‘rnatib, obyektni yaratish kifoya.
+Entry dasturida ham shunday edi: **odatda Actor obyektining standart anchor qiymati rasmdagi markaziy nuqta (center) bo‘ladi.** Ammo zaruratga ko‘ra, obyektning markaziy nuqtasini ekranda ko‘rsatilganidek obyektning pastki o‘rta qismi (middle-bottom yoki bottom-middle)ga ko‘chirish mumkin. Bunday holatda, Actor obyektining anchor xususiyatiga **anchor=('middle', 'bottom')** qiymatini o‘rnatib, obyektni yaratish kifoya.
 
-Ushbu misolda, nega markaziy nuqta gultojining o‘rtasida emas, uning pastki chetida joylashishi kerakligini siz allaqachon Entry blok kodlashda amaliyot qilib tushunganingizga ishongan holda, qisqacha tushuntiradigan bo‘lsak, gultojining qaysi qismi markaz qilib olinib, u doira bo‘ylab aylanganda butun bir gul shakllanishi markaziy nuqtaning qayta o‘rnatilishini talab qiladi.
+Ushbu misolda, nega markaziy nuqta gultojining o‘rtasida emas, uning pastki chetida joylashishi kerakligini siz allaqachon Entry blokli kodlashda amaliyot qilib tushunganingizga ishongan holda, qisqacha tushuntiradigan bo‘lsak, gultojining qaysi qismi markaz qilib olinib, u doira bo‘ylab aylanganda butun bir gul shakllanishi markaziy nuqtaning qayta o‘rnatilishini talab qiladi.
 
 \
 
@@ -40,12 +40,13 @@ Agar oldingi boblarning asosiy tushunchalarini yetarlicha o'zlashtirgan bo'lsang
 
 <figure><img src="../.gitbook/assets/imagegg.gif" alt=""><figcaption></figcaption></figure>
 
-E'tibor bering, yuqoridagi kodni ishlatganda rasmdagidek bosqichma-bosqich chizilishni ko'rmaysiz. Qadamma-qadam chizishni ko'rmoqchi bo'lganlar uchun men qo'shimcha kodni qoldiraman. E'tibor bering, obyektning draw() funksiyasi (metodi) chaqirilsa ham, u ekranda ichki chizilmaydi, shuning uchun **pygame.display.update()** funksiyasi (metodi) orqali darhol chizishga majburlash uchun kod qo'llanilganligini ko'rishingiz mumkin.
+E'tibor bering, yuqoridagi kodni ishlatganda rasmdagidek bosqichma-bosqich chizilishni ko'rmaysiz. Qadamma-qadam chizishni ko'rmoqchi bo'lganlar uchun men qo'shimcha kodni qoldiraman. E'tibor bering, obyektning draw kolbek funksiyasi chaqirilsa ham, u ekranda ichki chizilmaydi, shuning uchun **pygame.display.update()** funksiyasi(metodi) orqali darhol chizishga majburlash uchun kod qo'llanilganligini ko'rishingiz mumkin.
 
 {% code lineNumbers="true" %}
 ```python
 from pgzhelper import *
 import pygame
+
 WIDTH = 480
 HEIGHT = 270
 
