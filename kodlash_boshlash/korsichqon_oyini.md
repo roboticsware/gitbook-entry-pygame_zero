@@ -1,4 +1,4 @@
-# 5.7 Ko'rsichqon oyini yasash - Keng qamrovli
+# 5.7 Ko'rsichqon oyini yasash (Jamlash)
 
 Va nihoyat, sizni ushbu kitobning so‘nggi misoliga yetib kelganingiz bilan sizni tabriklayman. Oldingi misollarni muvaffaqiyatli o‘zlashtirib, shu bosqichga yetib kelganingizda, Python kodlashning zavqini ham asta-sekin his qila boshlagan bo‘lsangiz kerak. Kutilganidan ko‘ra matnli kodlash juda qiyin yoki zerikarli bo‘lmaganiga ishonaman. Agar shunday bo'lsa, siz bu kitobning asosiy maqsadi bo‘lgan matnli kodlash olamiga kirish vazifasini to‘liq bajarganingizni hisoblasangiz bo‘ladi.
 
@@ -90,7 +90,7 @@ def animation_done():
 
 Shu bilan ko'rsichqon o‘yinining barcha kodlari haqida tushuntirish yakunlandi va oxirgi bosqichda o‘yin natijasini ko‘rish bilan tugatamiz.
 
-<figure><img src="../.gitbook/assets/image (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).gif" alt=""><figcaption></figcaption></figure>
 
 Ushbu kitobni shu misolgacha tugatganlarni yana bir bor tabriklayman. Bu bilan siz nihoyat Pygame Zero boshlang'ich darajasidan o'tdingiz. Shunday qilib, endi siz Pygame Zero-ning yanada ilg'or darajasiga o'tishga tayyorsiz. [Kitobning keyingi darajasi](https://jjlee.gitbook.io/python-pygame_zero)da siz Python kodlash ko'nikmalaringizni biz hozirgacha ko'rgan misollardan farq qiladigan va o'yinga o'xshash(?) o'yinlar yaratish orqali yanada qiziqarli tarzda rivojlantirasiz. Siz hayajonlana boshladingizmi? Matnli dasturlash bo'yicha birinchi sayohatingizda sizga hamroh bo'lganimdan xursand bo'ldim va muallif sizning sayohatingizda sizni xursand qilishda davom etadi. Bundan tashqari, men kodlash sayohatingizda sizga amaliy yordam beradigan va o'rganishingizga yordam beradigan kodlash vositalari va kitoblarni tayyorlashni davom etaman. Va nihoyat, agar sizda tushunarsiz misollar haqida savollaringiz yoki qo'shimcha fikrlaringiz bo'lsa, iltimos, onlayn hamjamiyat orqali bog'laning. Sizning sayohatingiz hech qachon yolg'iz emas!
 

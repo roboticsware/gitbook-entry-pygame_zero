@@ -14,7 +14,7 @@
   * [5.3 Robot changyutkich to'siqga duch kelsa nima bo'ladi? (Shart)](kodlash_boshlash/changyutgich.md)
   * [5.4 O'zingizga rasm chizish taxtasini yasang (Hodisa)](kodlash_boshlash/rasm_chizish.md)
   * [5.5 Qo'llarni cho'zgan holda sakrashlar sonini sanang (O'zgaruvchi)](kodlash_boshlash/sakrashni_sanash.md)
-  * [5.6 Xazina sandiqini ochish uchun parolni kiriting (Kiritish/Chiqarish)](kodlash_boshlash/xazinani_ochish.md)
+  * [5.6 Xazina sandig'ini ochish uchun parolni kiriting (Kiritish/Chiqarish)](kodlash_boshlash/xazinani_ochish.md)
   * [5.7 Ko'rsichqon oyini yasash (Jamlash)](kodlash_boshlash/korsichqon_oyini.md)
 * [Ilova](ilova/README.md)
   * [Dasturmizni EXE fayliga aylantirish](ilova/exe_fayliga.md)
