@@ -48,7 +48,7 @@ def draw():
 ```
 {% endcode %}
 
-Ushbu kodni tushunish ham intuitivdir. Obyekt amalga oshirishi mumkin bo'lgan harakatlardan biri bu obyekt ichidagi **say\_for\_sec** funktsiyasidan (usulidan) foydalanish, uninig vazifasi ma'lum soniyalar davomida biror narsa aytishda.
+Ushbu kodni tushunish ham intuitivdir. Obyekt amalga oshirishi mumkin bo'lgan harakatlardan biri bu obyekt ichidagi **say\_for\_sec** funksiyasidan (usulidan) foydalanish, uninig vazifasi ma'lum soniyalar davomida biror narsa aytishda.
 
 <figure><img src="../.gitbook/assets/Kapture 2024-07-17 at 17.11.31.gif" alt=""><figcaption></figcaption></figure>
 

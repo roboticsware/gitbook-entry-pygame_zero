@@ -3,7 +3,7 @@
 Oldingi bobda biz Entry blokli kodlash va Pygame Zeroda dasturlashning asosiy tuzilish farqini tushunib oldik. Shu asoslda, Entry asosiy kitobidan yettita misolni Entry-Python emas, balki haqiqiy Python dasturlash orqali yaratib ko'ramiz. Ammo buni amalga oshilrish uchun faqat Pygame Zero kutubxonasi funksional jihatdan yetarli emas. Shuning uchun qo'shimcha foydalanuvchi kutubxonasi kerak bo'ladi, va biz ushbu foydalanuvchi **pgzhelper kutubxonasi** (user library, ya'ni odatda oldindan o'rnatilmagan va ehtiyojga ko'ra foydalanuvchi tomonidan yaratilgan kutubxona) chaqirishdan boshlaymiz.
 
 {% hint style="info" %}
-pgzhelper birinchi bo'lib **Cort**, Singapurdagi dasturchi, Scratch blokli kodlashni Pygame Zeroga o'tkazishda(porting) Pygame Zero cheklovlari tufayli yuzaga kelgan qiyinchiliklarni(o'xshash funksiyalarni bajarishni) yaxshilash uchun yaratgan. Shunga o'xshash sabablarga ko'ra [Roboticsware ](https://roboticsware.uz)ham Pygame Zeroga Entry bloklarini python kodga aylantirishni osonlashtirish uchun mavjud kutubxonaning funktsiyalarini to'ldirdi va buni ochiq kodlar GitHub sayti ( [https://github.com/roboticsware/pgzhelper ](https://github.com/roboticsware/pgzhelper)) orqali ommaga tarqatmoqda.
+pgzhelper birinchi bo'lib **Cort**, Singapurdagi dasturchi, Scratch blokli kodlashni Pygame Zeroga o'tkazishda(porting) Pygame Zero cheklovlari tufayli yuzaga kelgan qiyinchiliklarni(o'xshash funksiyalarni bajarishni) yaxshilash uchun yaratgan. Shunga o'xshash sabablarga ko'ra [Roboticsware ](https://roboticsware.uz)ham Pygame Zeroga Entry bloklarini python kodga aylantirishni osonlashtirish uchun mavjud kutubxonaning funksiyalarini to'ldirdi va buni ochiq kodlar GitHub sayti ( [https://github.com/roboticsware/pgzhelper ](https://github.com/roboticsware/pgzhelper)) orqali ommaga tarqatmoqda.
 {% endhint %}
 
 ```python
@@ -14,7 +14,7 @@ Kodning birinchi qatori pgzhelper kutubxonasini chaqiradigan qismdir. Kutubxonan
 
 > **from** kutubxona nomi **import** \*
 
-Uni shunday chaqirishning afzalligi **avval siz kutubxona ichidagi funktsiyani chaqirish uchun doimo <\<kutubxona nomi.funksiya nomi>> sintaksisidan foydalanishingiz kerak bo'lgan bo'lsa, endi siz uni avvalgidek, xuddi shu tarzda ishlatishingiz mumkin, faqat funktsiya nomi yordamida, old tomonda kutubxona nomi ko'rsatmasdan.**
+Uni shunday chaqirishning afzalligi **avval siz kutubxona ichidagi funksiyani chaqirish uchun doimo <\<kutubxona nomi.funksiya nomi>> sintaksisidan foydalanishingiz kerak bo'lgan bo'lsa, endi siz uni avvalgidek, xuddi shu tarzda ishlatishingiz mumkin, faqat funksiya nomi yordamida, old tomonda kutubxona nomi ko'rsatmasdan.**
 
 ### Entry koordinatalari tizimi va Pygame koordinatalari tizimini taqqoslash
 
@@ -43,7 +43,7 @@ def draw():
     screen.fill('white')
 ```
 
-_**draw** funksiyasi oldingi bobda ko'rganimizdek, Pygame Zero o'yin siklida mavjud bo'lgan oldindan belgilangan kolbek funksiyasi._ Ekranda biror narsa chizmoqchi bo'lganimizda, u avtomatik ravishda chaqiriladi. Ekranni rangga to'dirish uchun kod ushbu funktsiya ichida yozilishi kerak va ekranni to'ldirish uchun biz oq rangni [argument](https://roboticsware.gitbook.io/entry-python/boshlash/hello_world#funksiyani-qanday-yaratish-tariflash) sifatida o'tkazib, **fill** deb nomlangan funktsiyadan foydalanamiz. **fill** funksiyasi "**screen.**" yordamida chaqiriladi, chunki **fill** funksiyasi Pygame Zero kutubxonasining **screen** obyektida mavjud. Obyektlar haqida keyingi bobda batafsil yoritilganligi sababli, hozircha yetarli.
+_**draw** funksiyasi oldingi bobda ko'rganimizdek, Pygame Zero o'yin siklida mavjud bo'lgan oldindan belgilangan kolbek funksiyasi._ Ekranda biror narsa chizmoqchi bo'lganimizda, u avtomatik ravishda chaqiriladi. Ekranni rangga to'dirish uchun kod ushbu funksiya ichida yozilishi kerak va ekranni to'ldirish uchun biz oq rangni [argument](https://roboticsware.gitbook.io/entry-python/boshlash/hello_world#funksiyani-qanday-yaratish-tariflash) sifatida o'tkazib, **fill** deb nomlangan funksiyadan foydalanamiz. **fill** funksiyasi "**screen.**" yordamida chaqiriladi, chunki **fill** funksiyasi Pygame Zero kutubxonasining **screen** obyektida mavjud. Obyektlar haqida keyingi bobda batafsil yoritilganligi sababli, hozircha yetarli.
 
 **Ekranni to'ldirish uchun rang qiymatini o'tkazishning uchta usuli mavjud. Ulardan biri til o'rnatilgan kalit so'zlar kabi oldindan belgilangan qiymatlardan foydalanish, ikkinchisi esa RGB (Red / Green / Blue) vakolatxonasidan foydalanishdir.** Oldindan belgilangan rang kalit so'zlarini quyidagi rang qiymatlari jadvalida topish mumkin.
 
