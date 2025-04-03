@@ -14,14 +14,14 @@ drawing = False
 pencil = Actor('pencil', (WIDTH / 2, HEIGHT / 2), anchor=('left', 'bottom'))
 pencil.scale = 0.3
 pencil.brush_init((WIDTH, HEIGHT), 5, 'blue')
-ochirgich = Actor('eraser', (900, 50))
-ochirgich.scale = 0.5
+eraser = Actor('eraser', (900, 50))
+eraser.scale = 0.5
 
 def draw():
     screen.fill('white')
     pencil.brush_draw()
     pencil.draw()
-    ochirgich.draw()
+    eraser.draw()
     
     if drawing is False:
         pencil.brush_stop()
@@ -33,7 +33,7 @@ def on_mouse_down(pos):
     global drawing
     drawing = True
 
-    if ochirgich.collidepoint_pixel(pos):
+    if eraser.collidepoint_pixel(pos):
         pencil.brush_clear()
 
 def on_mouse_up():
@@ -62,7 +62,7 @@ _Aytgancha, bu erda ehtiyot bo'lish kerak. **Grammatikaga qat'iy rioya qilmaydig
 
 🔢 20-21-qatorlarda **drawing** o'zgaruvchisining qiymatidan foydalanib, cho'tka bilan chizishni to'xtatish vaqtini aniqlash uchun shart ishlatiladi. Qiymat **yolg'on**(False) bo'lganda, **brush\_stop** funksiyasi(metodi) cho'tkadan foydalanishni to'xtatadi.
 
-🔢 23-24 qatorlarda qalam obyektining markazini sichqoncha koordinatalari bilan real vaqtda joylashtirish vazifasini bajariladi. Bu qalam obyekti kursor bilan birga harakatlanishi uchun kerak. 24-qatordagi sintaksis biroz g'alati tuyulishi mumkin, chunki **"pos" qiymati bittalik qiymatga o'xshaydi, lekin aslida (x, y) koordinatalarini o'z ichiga olgan&#x20;**_**o'zgarmas ro'yxat**_ _**(Tuple)**_**&#x20;ni ifodalaydi.** O'zgarmas ro'yxat (Tuple) — bu biz hali duch kelmagan yangi ma'lumotlar turi, shuning uchun uni batafsilroq ko'rib chiqamiz.
+🔢 23-24 qatorlarda qalam(**pensil**) obyektining markazini sichqoncha koordinatalari bilan real vaqtda joylashtirish vazifasini bajariladi. Bu qalam obyekti kursor bilan birga harakatlanishi uchun kerak. 24-qatordagi sintaksis biroz g'alati tuyulishi mumkin, chunki **"pos" qiymati bittalik qiymatga o'xshaydi, lekin aslida (x, y) koordinatalarini o'z ichiga olgan&#x20;**_**o'zgarmas ro'yxat**_ _**(Tuple)**_**&#x20;ni ifodalaydi.** O'zgarmas ro'yxat (Tuple) — bu biz hali duch kelmagan yangi ma'lumotlar turi, shuning uchun uni batafsilroq ko'rib chiqamiz.
 
 **O'zgarmas ro'yxat (keyinchalik "Tupl" deb ataladi)**
 
@@ -74,7 +74,7 @@ Tupl biz allaqachon tanish bo'lgan [ro'yxat(list)](https://roboticsware.gitbook.
 
 Shunday qilib, yana bir bor xulosa qilish uchun 24-qator sintaksisi pos **tupl**idan x-koordinataning qiymatini oladi va uni **pencil.left** o'zgaruvchisiga saqlaydi, va y-koordinataning qiymati olinadi va **pencil.bottom**da saqlanadi.
 
-🔢 26-qatordagi **on\_mouse\_down** kolbek funksiyasi, uning nomidan taxmin qilganingizdek, sichqoncha tugmasi bosilganda kutubxona orqali avtomatik ravishda chaqiriladi. Bunday holda, bosish paytida sichqoncha kursori joylashgan nuqtaning koordinatalari avtomatik ravishda pos funksiya argumenti sifatida uzatiladi. Ushbu qiymatdan foydalanib, biz qiziqarli dasturlarni yaratishimiz mumkin. Endi, nihoyat, ushbu bob kodining oxirgi 30-31 qatorlarini ko'rib chiqamiz. Bizning kodimizda birinchi marta obyektlar o'rtasida to'qnashuvni tekshirish paydo bo'ladi, bu ko'pincha o'yin kodlashda ishlatiladi. **collidepoint\_pixel** funksiyasi(metodi) sichqonchani bosgan nuqta (bu yana pos tupl qiymati) o'chirgich obyektining ichida ekanligini tekshiradi. Biz o'chirgich obyektini bosganimizni tekshiramiz va agar shunday bo'lsa (natija rost bo'lsa), chizganimizni butunlay o'chirib tashlaymiz.
+🔢 26-qatordagi **on\_mouse\_down** kolbek funksiyasi, uning nomidan taxmin qilganingizdek, sichqoncha tugmasi bosilganda kutubxona orqali avtomatik ravishda chaqiriladi. Bunday holda, bosish paytida sichqoncha kursori joylashgan nuqtaning koordinatalari avtomatik ravishda pos funksiya argumenti sifatida uzatiladi. Ushbu qiymatdan foydalanib, biz qiziqarli dasturlarni yaratishimiz mumkin. Endi, nihoyat, ushbu bob kodining oxirgi 30-31 qatorlarini ko'rib chiqamiz. Bizning kodimizda birinchi marta obyektlar o'rtasida to'qnashuvni tekshirish paydo bo'ladi, bu ko'pincha o'yin kodlashda ishlatiladi. O‘chirgich(**eraser**) obyekti ichidagi **collidepoint\_pixel** funksiyasi(metodi) sichqonchani bosgan nuqtaning koordinata qiymatlari (bu yana pos tupl qiymati) o‘chirgich obyektining ichida ekanligini tekshiradi. Demak biz sichqoncha orqali o‘chirgich obyektini bosganimizni tekshiramiz va agar shunday bo‘lsa (natija rost bo'lsa), chizganimizni butunlay o‘chirib tashlaymiz.
 
 Bobning boshida juda ko'p kod paydo bo'lgan bo'lsa-da, uni tahlil qilgandan so'ng, dasturlash ko'rinadigan darajada murakkab emasligi aniq bo'ladi. Shunday qilib, kod hajmidan qo'rqishning ma'nosi yo'q. Biz ushbu rasm chizish taxtasini natijasini ko'rib chiqib, bobni yakunlaymiz.
 
