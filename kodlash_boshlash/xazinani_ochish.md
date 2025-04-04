@@ -1,6 +1,8 @@
-# 5.6 Xazina sandiqini ochish uchun parolni kiriting (Kiritish/Chiqarish)
+# 5.6 Xazina sandig'ini ochish uchun parolni kiriting (Kiritish/Chiqarish)
 
-Biz o‘tgan boblarda sichqoncha orqali kiritish (drag, click va boshqalar) haqida yetarlicha tajriba orttirdik. Bu bobda, mavzuga mos ravishda, klaviatura orqali kiritishni boshqarishni birinchi marta ko‘rib chiqamiz va o‘yin qiziqarliroq bo‘lishi uchun ovoz effektlari fayllarini ishlatib, ovozni qanday chiqarishni ham o‘rganamiz.
+Biz o‘tgan boblarda sichqoncha orqali kiritish (click(bosish), drag(harakatlantirish) va boshqalar) haqida yetarlicha tajriba orttirdik. Bu bobda, mavzuga mos ravishda, klaviatura orqali kiritishni boshqarishni birinchi marta ko‘rib chiqamiz va o‘yin qiziqarliroq bo‘lishi uchun ovoz effektlari fayllarini ishlatib, ovozni qanday chiqarishni ham o‘rganamiz.
+
+Ma'lumotingiz uchun, Entryda klaviatura kiritishida alohida kiritish oynasi orqali kerakli tarkiblarni kiritib yakuniy kiritishini belgilash uchun Enter tugmasini bosish orqali amalga oshiriladi, lekin Pygame Zeroda esa klaviaturadagi har bir boshish (hodisalar)da chaqiriladigan kolbek funktsiyasi orqali kiritilgan tarkibni darhol yig'adi. Boshqacha qilib aytganda, u hodisaga asoslangan paradigmadan foydalanib dasturlash qilinadi.
 
 Siz avvalgi 5 ta misolni muvaffaqiyatli yechganingiz sababli, endi sizni PyGame Zero-da endigina boshlovchi deb atash qiyin. Qolgan 2 ta misol ustida ishlash jarayonida, avvalo, kodning pastki qismidagi tushuntirishlarni ko‘rmasdan oldin, butun kodni ko‘zdan kechirish orqali tushunishga harakat qiling. Shundan keyin kod tushuntirishlariga e’tibor berishni sinab ko‘ring. Bu kabi o‘rganish usuli sizning mahoratingizni oshirishning samarali yo‘lidir. Sizga ma’lumki, tezkor javoblar hech qachon bizning fikrlarimizni rivojlantirish imkoniyatini bermaydi.
 
