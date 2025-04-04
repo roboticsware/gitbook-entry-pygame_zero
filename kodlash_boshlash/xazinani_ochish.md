@@ -68,7 +68,7 @@ def on_key_down(key, unicode):
 ```
 {% endcode %}
 
-🔢 Keling, avval ushbu kodda bir necha marta ishlatilgan Rect haqida bilib olaylik. Nomining bosh harf bilan boshlanishidan, Rect obyekt ekanini bilib olish mumkin. **Rect - bu Rectangle (to'rtburchak) so'zining qisqartmasi va u to'rtburchak shaklidagi maydonni ushlab turuvchi obyekt** bo'lib, o'yin sahnasida paydo bo'ladigan ko'pchilik obyektlar asosan to'rtburchak shaklida bo'lgani uchun Rect ishlatish keng tarqalgan. _**Uni yaratish uchun 4 ta qiymat (left(chap), top(yuqor), width(kenglik), height(balanlik)) kerak bo'ladi. Birinchi ikkita qiymat (left, top) - bu to'rtburchakning ekranda qayerdan boshlanishini ko'rsatuvchi yuqori chap burchak koordinatalari, oxirgi ikkita qiymat (width, height) esa to'rtburchakning kengligi va balandligi bo'lib, ular bu maydonning o‘lchamini belgilaydi.**_
+🔢 Keling, avval ushbu kodda bir necha marta ishlatilgan Rect haqida bilib olaylik. Nomining bosh harf bilan boshlanishidan, Rect obyekt ekanini bilib olish mumkin. **Rect - bu Rectangle (to'rtburchak) so'zining qisqartmasi va u to'rtburchak shaklidagi maydonni ushlab turuvchi obyekt** bo'lib, o'yin sahnasida paydo bo'ladigan ko'pchilik obyektlar asosan to'rtburchak shaklida bo'lgani uchun Rect ishlatish keng tarqalgan. _Uni yaratish uchun 4 ta qiymat (left(chap), top(yuqor), width(kenglik), height(balanlik)) kerak bo'ladi. Birinchi ikkita qiymat (left, top) - bu to'rtburchakning ekranda qayerdan boshlanishini ko'rsatuvchi yuqori chap burchak koordinatalari, oxirgi ikkita qiymat (width, height) esa to'rtburchakning kengligi va balandligi bo'lib, ular bu maydonning o‘lchamini belgilaydi._
 
 <figure><img src="../.gitbook/assets/image (3).avif" alt="" width="375"><figcaption></figcaption></figure>
 
