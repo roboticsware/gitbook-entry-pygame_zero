@@ -40,7 +40,7 @@ Agar oldingi boblarning asosiy tushunchalarini yetarlicha o'zlashtirgan bo'lsang
 
 <figure><img src="../.gitbook/assets/imagegg.gif" alt=""><figcaption></figcaption></figure>
 
-E'tibor bering, yuqoridagi kodni ishlatganda rasmdagidek bosqichma-bosqich chizilishni ko'rmaysiz. Qadamma-qadam chizishni ko'rmoqchi bo'lganlar uchun men qo'shimcha kodni qoldiraman. E'tibor bering, obyektning draw kolbek funksiyasi chaqirilsa ham, u ekranda ichki chizilmaydi, shuning uchun **pygame.display.update()** funksiyasi(metodi) orqali darhol chizishga majburlash uchun kod qo'llanilganligini ko'rishingiz mumkin. Faqat undan foydalanish uchun alohida tashqi kutubxona, ya'ni pygame kutubxonasini 2-qatoridek import qilish kerakligi e'tibor bering.
+E'tibor bering, yuqoridagi kodni ishlatganda rasmdagidek bosqichma-bosqich chizilishni ko'rmaysiz. Qadamma-qadam chizishni ko'rmoqchi bo'lganlar uchun men qo'shimcha kodni qoldiraman. E'tibor bering, Pygame Zeroning draw kolbek funksiyasi chaqirilsa ham, u ekranda ichki chizilmaydi, shuning uchun **pygame.display.update()** funksiyasi(metodi) orqali darhol chizishga majburlash uchun kod qo'llanilganligini ko'rishingiz mumkin. Faqat undan foydalanish uchun alohida tashqi kutubxona, ya'ni pygame kutubxonasini 2-qatoridek import qilish kerakligi e'tibor bering.
 
 {% code lineNumbers="true" %}
 ```python

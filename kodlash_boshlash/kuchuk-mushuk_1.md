@@ -96,6 +96,8 @@ Endi keyingi qadam — o‘yin qahramonlari bo‘lgan «Kuchukcha» va «Mushukc
 
 Entry blokli kodlashdagi tajribangizni eslang. O‘yinni yaratishda birinchi qilgan ishingiz nima edi? Ehtimol, siz o‘yinda ishtirok etadigan obyektlarni ekranga joylashtirish bilan boshlagansiz. Matnli dasturlashda ham shunga o‘xshash. Biz ham qahramon obyektlarini ekranga chiqarishdan boshlaymiz.
 
+### **Pygame Zeroda resurlarni boshqarish**
+
 Biroq, Entryda bo‘lgani kabi, agar o‘yinda foydalaniladigan obyektlar dasturga oldindan kiritilmagan bo‘lsa, o‘yin uchun kerak bo‘lgan rasm fayllarini kiritib, keyin kodlashni boshlashingiz kerak edi. Xuddi shunday, agar kodlashda foydalaniladigan rasmlar oldindan kiritilgan rasmlar bo‘lmasa, ularni alohida saqlash kerak bo‘ladi. Saqlash yo‘li — bu Mu editori o‘rnatilganda avtomatik ravishda yaratiladigan _**\[foydalanuvchi nomi]\mu\_code\images**_ papkasi(direktoriyasi) va rasmlar shu papkada joylashishi kerak bo‘ladi.
 
 Ushbu papkaning joylashuvini osongina topmoqchi bo‘lsangiz, Mu editoridagi menyu panelidagi **"Rasmlar" tugmasi**ni bosing. Bu tugma siz foydalanayotgan rasmlar saqlangan papkani darhol ochib beradi. Papka ichida ushbu kitobda foydalaniladigan rasmlar sizning qulayligingiz uchun oldindan saqlanganini ko‘rishingiz mumkin. Manba kodini asosiy saqlash joyiga saqlashingizni so‘raganimizning sababi, biz ushbu oldindan saqlangan rasmlardan foydalanib, qo‘shimcha resurslar bilan bog‘liq ishlarni chetlab o‘tib, faqat kodlashga e'tibor qaratishingiz uchun edi.

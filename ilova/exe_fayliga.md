@@ -8,7 +8,7 @@ Misol uchun, keling, [keyingi darajali kitobi](https://roboticsware.gitbook.io/p
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-Papkalarni tartibga solishda yodda tutish kerak bo'lgan narsa shundaki, [5.1-bo'lim](../kodlash_boshlash/kuchuk-mushuk_1.md)da o'rganib olgandek resurslarni (rasmlar, fontlar, ovozli effektlari, fon musiqasi) o'z ichiga olgan pastki papkalar nomlari Pygame Zeroning asosiy cheklovlariga muvofiq yaratilishi kerak. Bu ular faqat oldindan belgilangan nomlar (images, fonts, sounds, music) bilan yaratilishi kerakligini bildiradi.
+Papkalarni tartibga solishda yodda tutish kerak bo'lgan narsa shundaki, [5.1.1-bo'lim](../kodlash_boshlash/kuchuk-mushuk_1.md#pygame-zeroda-resurlarni-boshqarish)da o'rganib olgandek resurslarni (rasmlar, fontlar, ovozli effektlari, fon musiqasi) o'z ichiga olgan pastki papkalar nomlari Pygame Zeroning asosiy cheklovlariga muvofiq yaratilishi kerak. Bu ular faqat oldindan belgilangan nomlar (images, fonts, sounds, music) bilan yaratilishi kerakligini bildiradi.
 
 Endi siz tayyor bo'lsangiz, jarayon juda oddiy. _Agar sizda editor Ichida bir nechta fayllar ochiq bo‘lsa, qadoqlamoqchi bo'lgan o'yinning manba kodi fayl yorlig'ini bosib kiring va quyidagi rasmda ko'rsatilganidek, "**Exe faylga**" deb nomlangan menyu belgisini bosing._
 
