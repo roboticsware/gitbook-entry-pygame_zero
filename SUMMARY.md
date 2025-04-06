@@ -3,7 +3,7 @@
 * ["Pygame Zero" yordamida Python o'rganish](README.md)
 * [Kirish](kirish.md)
 * [1. "Pygame Zero" kutubxonasi](pygame-zero_kutubxonasi.md)
-* [2. Dasturlash muhitini tayyorlash](2.-ide.md)
+* [2. Dasturlash muhitini tayyorlash](dev_muhit.md)
 * [3. "Hello World" dasturidan boshlaylik](hello_world.md)
 * [4. O'yin siklini tushunish](oyin-sikli.md)
 * [5. Entry boshlang'ich darajali kitobini kodlash](kodlash_boshlash/README.md)
