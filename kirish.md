@@ -1,6 +1,6 @@
 # Kirish
 
-Python dasturlash tili ko'pincha matnli dasturlash uchun eng oson til va bir vaqtning o'zida eng qulay til deb ataladi. Ma'lumki, uni o'rganish oson, lekin shunga qaramay, qanchalik oson bo'lmasin, o'rganish haqiqatan ham oson bo'lgan notanish til bormi? Hech bo'lmaganda, mening xotiramda bunaqasi bor bo'lmagan. Tilni o'rganish qiyin va ko'pincha sabr-toqatni sinovdan o'tkazadigan vazifadir, ammo uni biroz ossonlashtiradigan ba'zi o'rganish usullari mavjud.
+Python dasturlash tili ko'pincha matnli dasturlash uchun eng oson til va bir vaqtning o'zida eng qulay til deb ataladi. Ma'lumki, uni o'rganish oson, lekin shunga qaramay, qanchalik oson bo'lmasin, o'rganish haqiqatan ham oson bo'lgan notanish til bormi? Hech bo'lmaganda, mening xotiramda bunaqasi bor bo'lmagan. Tilni o'rganish qiyin va ko'pincha sabr-toqatni sinovdan o'tkazadigan vazifadir, ammo uni biroz osonlashtiradigan ba'zi o'rganish usullari mavjud.
 
 Bilamizki, maqsadli auditoriya blokli kodlashda ma'lum darajada ko'nikmalar hosil qilgan va matnli dasturlash olamiga endi kirgan. Tezda charchatadigan mavjud grammatikaga yo'naltirilgan kitob o‘rniga, biz **Python tilini o'yin ishlab chiqarishga asoslangan o'rganish usulini tavsiflovchi kitob bilan o'zimizni sinab ko'rishga qaror qildik, bizga tanish bo'lgan va blokli kodlashda sanoqsiz qo'llangan "loyihaga asoslangan o'rganish" deb nomlangan o'sish yo'lini** qo'lladik. Xo'sh, muallif bilan birga o'yinlar yaratib, Python olamiga chuqur sho'ng'ishni xohlaysizmi?
 

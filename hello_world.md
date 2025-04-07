@@ -26,7 +26,7 @@ Biroq, bitta qatorli kod bo'lishiga qaramay, keling, uni tushunish uchun kodni t
 
 Pythonni birinchi marta o'rganganimizda biz avval o'rgangan [**oldindan o'rnatilgan funksiyalar**](https://roboticsware.gitbook.io/entry-python/boshlash/kiritish_chiqarish) va **ldindan o'rnatilgan o'zgaruvchilar** kabi tushunchalarni eslaysizmi? Ushbu o'zgaruvchi shu tushunchalarga o'xshaydi. Agar kutubxonalar haqida avvalgi darslarimizdan eslasangiz, [**kutubxona**](https://roboticsware.gitbook.io/entry-python/boshlash/hello_world#kutubxona-nima)**dan foydalanish kutubxona yaratuvchisi tomonidan belgilangan qoidalarni o'rganish va shu qoidalarga muvofiq kodlashni anglatadi**. Xuddi shunday, _Pygame Zerodan foydalanish Pygame Zero yaratuvchisi tomonidan belgilangan qoidalarni o'rganish va shunga mos ravishda kodlashni anglatadi. Biz o'rgangan TITLE o'zgaruvchisi yaratuvchi tomonidan allaqachon belgilangan to'g'ri ismga o'xshaydi. Ilova nomini o'zgaruvchida saqlash uchun faqat shu o'zgaruvchi nomidan foydalanish ilova bajarilganda ilova nomi to'g'ri ko'rsatilishini ta'minlaydi._
 
-Endi o'yin ilovamizni biroz kengaytiraylik. Endi quyidagi 2 qator kodlarni qo'shib, bizda jami 3 qator kod mavjud. Ushbu 3ta qatorli kod yordamida biz ilova nomi asosida 'Hello World' nomli 400 x 300 piksel o'lchamdagi bo'sh ekranli juda oddiy dastur yaratdik. Play tugmasini bosib, uni ishga tushiramiz.
+Endi o'yin ilovamizni biroz kengaytiraylik. Endi quyidagi 2 qator kodlarni qo'shib, bizda jami 3 qator kod mavjud. Ushbu 3ta qatorli kod yordamida biz ilova nomi asosida 'Hello World' nomli 400 x 300 piksel o'lchamdagi bo'sh ekranli juda oddiy dastur yaratdik. Boshlash tugmasini bosib, uni ishga tushiramiz.
 
 ```python
 TITLE = 'Hello World!' 
