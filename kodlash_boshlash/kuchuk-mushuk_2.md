@@ -8,7 +8,7 @@ Bunday aktyor obyektlarini yaratish uchun Pygame Zero Actor nomli **klass(class)
 
 ### Klass va obyekt orasidagi farq
 
-Klasslar va obyektlar o'rtasidagi munosabatlar bir xil. **Obyektni e'lon qilganda klassdan foydalaniladi esa haqiqiy foydalanish uchun chaqirilgan va xotirada materiallashtirilgan(shakillantirilgan) holat obyekt deb ataladi (aniqrog'i, bu "Instans(Instance)" deb ataladi).** Boshqacha qilib aytganda, siz obyektni klass nomi bilan chaqirishingiz mumkin (xuddi funksiya nomi bilan funksiyani chaqirish kabi). Haqiqiy kodni ko'rib chiqish orqali buni batafsil tushunamiz.
+Klass va obyekt o‘rtasidagi munosabat bir xil. **Obyektni e'lon qilganda foydalaniladigan narsa — bu klass bo‘lib, haqiqiy foydalanish maqsadida chaqirilgan va xotirada yaratilgan holati(bu holatga “Instansiya” (Instance) deb nom beriladi) esa obyekt deb ataladi.** Ya’ni, klass nomi orqali chaqirib (xuddi funksiya nomi bilan funksiyani chaqirgandek) obyekt yaratish mumkin. Endi esa haqiqiy kodga qarab, buni batafsil tushunib olaylik.
 
 {% code lineNumbers="true" %}
 ```python
