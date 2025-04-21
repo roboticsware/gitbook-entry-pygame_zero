@@ -15,7 +15,7 @@ robot.angle = 90
 robot.brush_init((WIDTH, HEIGHT), 50, 'white')
 
 def draw():
-    screen.blit('pol', (0, 0))
+    screen.blit('floor', (0, 0))
     robot.brush_draw()
     robot.draw()
 
