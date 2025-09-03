@@ -1,6 +1,6 @@
 # 2. Dasturlash muhitini tayyorlash
 
-Menimcha, bu har bir dasturlash tilini o'rganish kitobida paydo bo'ladigan birinchi bob. Chunki, sarlavhadan xulosa qilishingiz mumkinki, bu kodlashni boshlash uchun oldindan o'rnatilishi kerak bo'lgan dasturlar mavjudligini anglatadi va ularni o'rnatish va sozlashdan so'ng kodlashni boshlash mumkin bo'ladi.
+Bu har bir dasturlash tilini o'rganish kitobida paydo bo'ladigan birinchi bob. Chunki, sarlavhadan xulosa qilishingiz mumkinki, bu kodlashni boshlash uchun oldindan o'rnatilishi kerak bo'lgan dasturlar mavjudligini anglatadi va ularni o'rnatish va sozlashdan so'ng kodlashni boshlash mumkin bo'ladi.
 
 Odatda, bu jarayon uchun ikkita asosiy talab mavjud. Birinchisi, siz foydalanmoqchi bo'lgan dasturlash tilini (bu holda Python) o'zini o'rnatish, ikkinchisi kodlashni (yoki dasturlashni) osonroq va qulayroq qiladigan yordamchi dasturni o'rnatish, bu kod editori yoki integratsiyalashgan dasturlash muhiti (Integrated Development Environment — IDE) — bu o'rnatilgan til yordamida kompyuter bilan aloqa qilish uchun mazmunli jumlalar va matnlar ya’ni kodlarni yozishni osonlashtiradi.
 
