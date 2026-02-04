@@ -27,8 +27,7 @@ Entry dasturida ham shunday edi: **odatda Actor obyektining standart anchor qiym
 
 Ushbu misolda, nega markaziy nuqta gultojining o‘rtasida emas, uning pastki chetida joylashishi kerakligini siz allaqachon Entry blokli kodlashda amaliyot qilib tushunganingizga ishongan holda, qisqacha tushuntiradigan bo‘lsak, gultojining qaysi qismi markaz qilib olinib, u doira bo‘ylab aylanganda butun bir gul shakllanishi markaziy nuqtaning qayta o‘rnatilishini talab qiladi.
 
-\
-
+<br>
 
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
