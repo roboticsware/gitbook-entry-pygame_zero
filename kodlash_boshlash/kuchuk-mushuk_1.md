@@ -22,7 +22,7 @@ Biz yaxshi bilganimizdek, Entrydagi koordinatalar tizimi quyidagi chapdagi rasmd
 
 <table><thead><tr><th align="center">Entry</th><th align="center">Pygame</th><th data-hidden></th></tr></thead><tbody><tr><td align="center"><img src="../.gitbook/assets/image (33).png" alt="" data-size="original"></td><td align="center"><img src="../.gitbook/assets/image (32).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
 
-Keling, hozircha Entryning bajarish ekrani hajmini taqlid qilaylik. Shuning uchun ekranning kengligi va balandligi mos ravishda 480 va 270 pikselni tashkil qiladi va shunga asoslanib, kod quyidagicha bo'ladi:
+Keling, hozircha Entryning natijalar ekrani hajmini taqlid qilaylik. Shuning uchun ekranning kengligi va balandligi mos ravishda 480 va 270 pikselni tashkil qiladi va shunga asoslanib, kod quyidagicha bo'ladi:
 
 {% code lineNumbers="true" %}
 ```python
@@ -51,7 +51,7 @@ _**draw** funksiyasi oldingi bobda ko'rganimizdek, Pygame Zero o'yin siklida mav
 
 Keyin rangni RGBning uchta asosiy rangi (qizil, yashil, ko'k) kombinatsiyasi orqali ifodalash mumkin, bu yerda har bir asosiy rang maksimal qiymati 256 tadir. Istalgan rangni ifodalash uchun har bir asosiy rangni o'nlik (0 dan 255 gacha) yoki o'n oltili (00 dan FF gacha) sanoq sistemasida ifodalash usullari mavjud.
 
-<table><thead><tr><th width="356"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (28).png" alt="" data-size="original"></td><td><img src="../.gitbook/assets/image (27).png" alt="" data-size="original"></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="356"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (28).png" alt="" data-size="original"></td><td><div><figure><img src="../.gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure></div></td><td></td></tr></tbody></table>
 
 ### RGB rang qiymatlarining o'nlik ko'rinishida oq rangni kodlash
 
@@ -60,7 +60,7 @@ def draw():
     screen.fill((255, 255, 255))
 ```
 
-### RGB rang qiymatlarining o'nlik oltilik ko'rinishida oq rangni kodlash
+### RGB rang qiymatlarining o'n oltilik tizimdagi ko'rinishida oq rangni kodlash
 
 ```python
 def draw():
@@ -115,7 +115,7 @@ Shunga tegishli Mu editorning qo'llanmasiga qarang:
 [https://codewith.mu/en/howto/1.2/pgzero\_sounds\_images](https://codewith.mu/en/howto/1.2/pgzero_sounds_images)
 {% endhint %}
 
-Keyingi keltiriladigan ma’lumotlar siz bilishingiz kerak bo'lgani uchun berilgan. Biz foydalanayotgan maxsus Mu Editori holatida, kodlashda kerak bo‘ladigan barcha resurslar (rasmlar, ovozlar va hokazo) sizning qulayligingiz uchun oldindan kiritib qo‘yilgan, shuning uchun bunday qo‘shimcha ishlar talab qilinmaydi. Biroq, bu qism Entryda har bir obyektning rasmlarini qanday olib kirish mumkinligi bilan qiziqadiganlar uchun qo‘shimcha tushuntirishdir.
+Keyingi keltiriladigan ma’lumotlar siz bilishingiz kerak bo'lgani uchun berilgan. Biz foydalanayotgan maxsus Mu Editori holatida, kodlashda kerak bo‘ladigan barcha resurslar (rasmlar, ovozlar va hokazo) sizga qulay bo'lish uchun oldindan kiritib qo‘yilgan, shuning uchun bunday qo‘shimcha ishlar talab qilinmaydi. Biroq, bu qism Entryda har bir obyektning rasmlarini qanday olib kirish mumkinligi bilan qiziqadiganlar uchun qo‘shimcha tushuntirishdir.
 
 ### Entrydan rasm obyektining rasmini olib kirish
 
